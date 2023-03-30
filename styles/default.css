@@ -18,3 +18,25 @@ a:hover{
 .align-right{
     text-align:right;
 }
+
+.container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding-left: 3em;
+  }
+
+.image{
+    flex-basis: 10%;
+    padding-top: .5em;
+    max-height: 375px;
+    max-width: 375px;
+  }
+
+.container p{
+    font-size: 2em;
+    padding-top: 2em;
+    padding-left: 1em;
+    margin-right: 5em;
+    text-align: justify;
+}
