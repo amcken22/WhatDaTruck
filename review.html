@@ -18,15 +18,18 @@
     </header>
 
     <main>
-        <h1>New Vendor</h1>
-        <form>
-            <label>Company Name: <input type="text" name="companyName" size="20" required="required"></label><br><br>
-            <label>Food Truck Description: <br><textarea name="description" cols="23" rows="4"></textarea></label><br><br>
-            <label>Image URL: <input type="url" name="imgURL" size="13"></label><br><br>
-            <input type="submit" value="Sign Up">
+        <h1>Review</h1>
+        <form id="form"> 
+            <label for="food truck">Search for a food truck!</label><br>
+		    <input type="text" id="food truck" name="food truck" placeholder="Enter food truck name">
+		    <input type="submit" value="Search"><br><br>
+		    <label for="review">Leave a review:</label><br>
+		    <textarea id="review" name="review" placeholder="Write your review here"></textarea><br>
+		    <input type="submit" value="Submit Review">
         </form>
     </main>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <footer>
         <nav>
             <a href="review.html">Leave a Review</a> ∙
