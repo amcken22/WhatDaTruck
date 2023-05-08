@@ -1,22 +1,35 @@
 body {
-    background-color: #bc4646;
+    background-color: #bc5448;
     text-align: center;
-
 }
+
+.TopNav {
+    background-color: #873333;
+    align-content: center;
+    text-align: center;
+}
+
+    .TopNav a {
+        color: #000000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: wavy;
+        font-size: 30px;
+    }
 
 
 a {
-    color:black;
+    color: black;
     text-decoration: none;
     font-size: 1.2em;
 }
 
-a:hover{
-    text-decoration: underline;
-}
+    a:hover {
+        text-decoration: underline;
+    }
 
-.align-right{
-    text-align:right;
+.align-right {
+    text-align: right;
 }
 
 .container {
@@ -24,16 +37,16 @@ a:hover{
     align-items: left;
     justify-content: left;
     padding-left: 3em;
-  }
+}
 
-.image{
+.image {
     flex-basis: 10%;
     padding-top: .5em;
     max-height: 375px;
     max-width: 375px;
-  }
+}
 
-.container p{
+.container p {
     font-size: 2em;
     padding-top: 2em;
     padding-left: 1em;
