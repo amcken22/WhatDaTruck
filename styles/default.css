@@ -4,9 +4,13 @@ body {
 }
 
 .TopNav {
-    background-color: #873333;
-    align-content: center;
-    text-align: center;
+    background-color: #ED820E;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 14px 16px;  
+    width: 1000px;
+    border: 5px solid;
 }
 
     .TopNav a {
@@ -15,6 +19,7 @@ body {
         padding: 14px 16px;
         text-decoration: wavy;
         font-size: 30px;
+       
     }
 
 
