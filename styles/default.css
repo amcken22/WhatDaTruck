@@ -19,9 +19,7 @@ body {
         padding: 14px 16px;
         text-decoration: wavy;
         font-size: 30px;
-       
     }
-
 
 a {
     color: black;
@@ -34,8 +32,20 @@ a {
     }
 
 .align-right {
-    text-align: right;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    padding: 10px 10px;
+    width: 125px;
+    border: 2px solid;
 }
+    .align-right a {
+        color: #000000;
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration: wavy;
+        font-size: 15px;
+    }
 
 .container {
     display: flex;
